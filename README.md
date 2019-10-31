@@ -1,2 +1,4 @@
 # BC-MV-Connectivity
- Multivariate Connectivity Project
+ Multivariate Connectivity Project. Lead Author: Jack McEarlean, co- Aidas Aglinskas
+
+
