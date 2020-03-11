@@ -9,5 +9,10 @@ Project to do's:
 	- multivariate connectivity @ to do
 
 
- This new cool thing we should try: 
-  -0 bla 
+Friday 13th, March
+-  Normalise data
+ - MV Connectivity Matrix
+ - Errorbar chart
+ 
+ 
+ 
