@@ -2,8 +2,8 @@
  ### Multivariate Functional Connectivity Project. Lead Author: Jack McEarlean, co- Aidas Aglinskas
 Project Started Sept, 2019
 Project deadlines:
-	- 1st Week of May: Finals
-	- April 27th: L3 final presentations
+- 1st Week of May: Finals
+- April 27th: L3 final presentations
 
 Project to do's: 
 - correlation based connectivity @done
