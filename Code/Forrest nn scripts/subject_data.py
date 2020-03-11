@@ -16,14 +16,18 @@ import numpy as np
 
 ###Concatenates a given subject's data from all 8 runs into 
 
+
+
+    
 def get_subj_func_data(subj_numb):
     
     if subj_numb < 10:
         subj_tag = "sub-0" + str(subj_numb)
         
-    fn_atlas = "C:/Users/mcerl/Desktop/BC-MV-Connectivity/Data/Forrest/" + subj_tag + "/atlas/imask.nii"
-        
-    fn_brainmask = "C:/Users/mcerl/Desktop/BC-MV-Connectivity/Data/Forrest/" + subj_tag+ "/atlas/brainmask-sub" + str(subj_num) + ".nii"
+    #fn_atlas = "C:/Users/mcerl/Desktop/BC-MV-Connectivity/Data/Forrest/" + subj_tag + "/atlas/imask.nii"
+    #fn_brainmask = "C:/Users/mcerl/Desktop/BC-MV-Connectivity/Data/Forrest/" + subj_tag+ "/atlas/brainmask-sub" + str(subj_num) + ".nii"
+    fn_atlas = "Data/Forrest/" + subj_tag + "/atlas/imask.nii"
+    fn_brainmask = "Data/Forrest/" + subj_tag+ "/atlas/brainmask-sub" + str(subj_num) + ".nii"
                 #file:///C:/Users/mcerl/Desktop/BC-MV-Connectivity/Data/Forrest/sub-01/atlas/brainmask-sub1.nii
         
     masker = NiftiMasker(fn_brainmask)
@@ -40,7 +44,7 @@ def get_subj_func_data(subj_numb):
     for run in range(num_runs):  
         
         print("loading sub " + str(subj_numb)+ ", run " + str(run +1))
-        fn_data = "C:/Users/mcerl/Desktop/BC-MV-Connectivity/Data/Forrest/" + subj_tag + "/ses-movie/func/" +subj_tag+ "_ses-movie_task-movie_run-" + str(run+1) + "_bold.nii"
+        fn_data = "Data/Forrest/" + subj_tag + "/ses-movie/func/" +subj_tag+ "_ses-movie_task-movie_run-" + str(run+1) + "_bold.nii"
     
        
         this_run_data = masker.fit_transform(fn_data)
@@ -79,11 +83,5 @@ def get_subj_dataset(subj_num,num_runs):
     print("after " + str(num_runs) + " many runs, subject dataset  has shape " + str(subj_data_set.shape))
     
     return subj_data_set, atlas
-    
+   
 
-
-sub_list = [1]
-num_runs = 8
-for sub_num in sub_list:
-    
-    data, atlas = get_subj_dataset(sub_num, num_runs)
