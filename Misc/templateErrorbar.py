@@ -1,0 +1,5 @@
+vals=np.array(([1,2,1,1,1],[2,2,2,2,1]))
+plt.bar([0,1],vals.mean(axis=1))
+plt.errorbar([0,1],vals.mean(axis=1),vals.std(axis=1),fmt='r.')
+plt.xticks([0,1],labels=['Corr','DNN'])
+plt.title('average varExpl')
