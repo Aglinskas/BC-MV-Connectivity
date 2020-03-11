@@ -3,7 +3,6 @@
 Project Started Sept, 2019
 Project deadlines:
 	- 1st Week of May: Finals
-	
 	- April 27th: L3 final presentations
 
 Project to do's: 
