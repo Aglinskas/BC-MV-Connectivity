@@ -17,6 +17,7 @@ Project to do's:
   - Normalise data @done
   - VarExplained @done
   - MV Connectivity Matrix
+  - launch scripts on the sirius cluster GPU
   - Errorbar chart
     - rsquareMat = square the corr values to get var explained
     - avgVec = average of the upper triangle for each subject - 20 values
