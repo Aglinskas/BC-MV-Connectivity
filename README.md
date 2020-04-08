@@ -11,7 +11,8 @@ Project to do's:
   - multivariate connectivity @ to do
 
   ~Friday 13th, March~
-  Friday, 10th April
+  
+ ### Friday, 10th April
   - Normalise data @done
   - VarExplained @done
   - MV Connectivity Matrix
