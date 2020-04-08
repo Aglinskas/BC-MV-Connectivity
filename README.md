@@ -9,9 +9,10 @@ Project to do's:
   - correlation based connectivity @done
   - dendrogram of correlation measure  @doing 
   - multivariate connectivity @ to do
+  
+ ## Log
 
   ~Friday 13th, March~
-  
  ### Friday, 10th April
   - Normalise data @done
   - VarExplained @done
